@@ -1,0 +1,350 @@
+
+@media only screen and (max-width:300px) {
+    .contactPage{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        width: 90%;
+        margin-left: 25px;
+    }
+    .imageContact{
+        margin-bottom: 10px;
+        width: 80%;
+        height: 80%;
+        clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+        animation: movePhoto 5s infinite;
+    }
+    @keyframes movePhoto {
+        0% {
+            clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+        }
+        50% {
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+            clip-path: polygon(29% 0, 100% 15%, 67% 100%, 0 76%);
+        }
+        100% {
+            clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+        }
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .form input,form .form-control,.form .form-control:focus{
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 1px solid #F2C205;
+    }
+    .form .form-control:focus{
+        box-shadow: 0px 1px 8px #F2C205;
+    }
+    .form input::placeholder,.form .form-control::placeholder{
+        color: #F2C205;
+    }
+    .btns{
+        display: flex;
+        justify-content: space-between;
+    }
+    #buttonSend{
+        font-size: larger;
+        font-weight:500 ;
+        width: 120px;
+        height: 40px;
+        background-color: #F2C205;
+        color: black;
+        border-radius: 5px;
+    }
+    #buttonReset{
+        font-size: larger;
+        font-weight:500 ;
+        width: 120px;
+        height: 40px;
+        background-color: transparent;
+        color: #F2C205;
+        border-radius: 5px;
+    }
+}
+@media only screen and (min-width:300px) {
+    .contactPage{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        width: 80%;
+        margin-left: 50px;
+    }
+    .imageContact{
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+        clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+        animation: movePhoto 5s infinite;
+    }
+    @keyframes movePhoto {
+        0% {
+            clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+        }
+        50% {
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+            clip-path: polygon(29% 0, 100% 15%, 67% 100%, 0 76%);
+        }
+        100% {
+            clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+        }
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .form input,form .form-control,.form .form-control:focus{
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 1px solid #F2C205;
+    }
+    .form .form-control:focus{
+        box-shadow: 0px 1px 8px #F2C205;
+    }
+    .form input::placeholder,.form .form-control::placeholder{
+        color: #F2C205;
+    }
+    .btns{
+        display: flex;
+        justify-content: space-between;
+    }
+    #buttonSend{
+        font-size: larger;
+        font-weight:500 ;
+        width: 120px;
+        height: 40px;
+        background-color: #F2C205;
+        color: black;
+        border-radius: 5px;
+    }
+    #buttonReset{
+        font-size: larger;
+        font-weight:500 ;
+        width: 120px;
+        height: 40px;
+        background-color: transparent;
+        color: #F2C205;
+        border-radius: 5px;
+    }
+}
+@media only screen and (min-width:600px) {
+    .contactPage{
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        width: 90%;
+       
+    }
+    .imageContact{
+        width: 500px;
+        height: 500px;
+        clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+        animation: movePhoto 5s infinite;
+    }
+    @keyframes movePhoto {
+        0% {
+            clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+        }
+        50% {
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+            clip-path: polygon(29% 0, 100% 15%, 67% 100%, 0 76%);
+        }
+        100% {
+            clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+        }
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .form input,form .form-control,.form .form-control:focus{
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 1px solid #F2C205;
+    }
+    .form .form-control:focus{
+        box-shadow: 0px 1px 8px #F2C205;
+    }
+    .form input::placeholder,.form .form-control::placeholder{
+        color: #F2C205;
+    }
+    .btns{
+        display: flex;
+        justify-content: space-between;
+    }
+    #buttonSend{
+        font-size: larger;
+        font-weight:500 ;
+        width: 150px;
+        height: 40px;
+        background-color: #F2C205;
+        color: black;
+        border-radius: 5px;
+    }
+    #buttonReset{
+        font-size: larger;
+        font-weight:500 ;
+        width: 150px;
+        height: 40px;
+        background-color: transparent;
+        color: #F2C205;
+        border-radius: 5px;
+    }
+}
+@media only screen and (min-width:920px) {
+    .contactPage{
+        display: flex;
+        flex-direction: row;
+        align-self: baseline;
+        width: 94%;
+    }
+    .imageContact{
+        width: 500px;
+        height: 500px;
+        clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+        animation: movePhoto 5s infinite;
+    }
+    @keyframes movePhoto {
+        0% {
+            clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+        }
+        50% {
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+            clip-path: polygon(29% 0, 100% 15%, 67% 100%, 0 76%);
+        }
+        100% {
+            clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+        }
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .form input,form .form-control,.form .form-control:focus{
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 1px solid #F2C205;
+    }
+    .form .form-control:focus{
+        box-shadow: 0px 1px 8px #F2C205;
+    }
+    .form input::placeholder,.form .form-control::placeholder{
+        color: #F2C205;
+    }
+    .btns{
+        display: flex;
+        justify-content: space-between;
+    }
+    #buttonSend{
+        font-size: larger;
+        font-weight:500 ;
+        width: 120px;
+        height: 40px;
+        background-color: #F2C205;
+        color: black;
+        border-radius: 5px;
+    }
+    #buttonReset{
+        font-size: larger;
+        font-weight:500 ;
+        width: 120px;
+        height: 40px;
+        background-color: transparent;
+        color: #F2C205;
+        border-radius: 5px;
+    }
+}
+@media only screen and (min-width:1200px) {
+    .contactPage{
+        display: flex;
+        flex-direction: row;
+        align-self: baseline;
+        width: 95%;
+    }
+    .imageContact{
+        width: 500px;
+        height: 500px;
+        clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+        animation: movePhoto 5s infinite;
+    }
+    @keyframes movePhoto {
+        0% {
+            clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+        }
+        50% {
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+            clip-path: polygon(29% 0, 100% 15%, 67% 100%, 0 76%);
+        }
+        100% {
+            clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+        }
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .form input,form .form-control,.form .form-control:focus{
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 1px solid #F2C205;
+    }
+    .form .form-control:focus ,.form-control{
+        box-shadow: 0px 1px 8px #F2C205;
+        color: #F2C205;
+        background-color: transparent;
+
+    }
+    .form input::placeholder,.form .form-control::placeholder{
+        color: #F2C205;
+    }
+    .btns{
+        display: flex;
+        justify-content: space-between;
+        width: 400px;
+    }
+    #buttonSend{
+        font-size: larger;
+        font-weight:500 ;
+        width: 150px;
+        height: 40px;
+        background-color: #F2C205;
+        color: black;
+        border-radius: 5px;
+    }
+    #buttonReset{
+        font-size: larger;
+        font-weight:500 ;
+        width: 150px;
+        height: 40px;
+        background-color: transparent;
+        color: #F2C205;
+        border-radius: 5px;
+    }
+}

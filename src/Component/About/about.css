@@ -1,0 +1,149 @@
+
+.titll{
+    position: relative;
+    left: 20px;
+    font-weight: 900;
+    font-family: cursive;
+    color: #F2C205;
+}
+@media only screen and (max-width:300px) {
+    .pageAbput{
+        position: relative;
+        left: 25px;
+        width: 90%;
+    }
+   
+    .carousel,.carousel-inner,.carousel-item,.photo{
+        width: 100%;
+        height: 30vh;
+    }
+    .sr-only{
+        display: none;
+    }
+    .personalInformation{
+        display: grid;
+        grid-template-columns: 100%;
+        height: auto;
+        place-content: center;
+        color: #F2C205;
+        font-size: small;
+        font-weight: bold;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width:300px) {
+    .pageAbput{
+        width: 81%;
+        position: relative;
+        left: 25px;
+    }
+    .carousel,.carousel-inner,.carousel-item,.photo{
+        width: 280px;
+        height: 250px;
+    }
+    .sr-only{
+        display: none;
+    }
+    .personalInformation{
+        display: grid;
+        grid-template-columns: 160px;
+        place-content: center;
+        color: #F2C205;
+        font-size: small;
+        font-weight: bold;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width:400px) {
+    .pageAbput{
+        width: 93%;
+        position: relative;
+        left: 15px;
+    }
+    .carousel,.carousel-inner,.carousel-item,.photo{
+        width: 100%;
+        height: 230px;
+    }
+    .sr-only{
+        display: none;
+    }
+    .personalInformation{
+        display: grid;
+        grid-template-columns: 160px;
+        place-content: center;
+        color: #F2C205;
+        font-size: small;
+        font-weight: bold;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    
+    .pageAbput{
+        width: 90%;
+        position: relative;
+        left: 25px;
+    }
+    .carousel,.carousel-inner,.carousel-item,.photo{
+        width: 100%;
+        height: 230px;
+    }
+    .sr-only{
+        display: none;
+    }
+    .personalInformation{
+        display: grid;
+        grid-template-columns: 360px;
+        place-content: center;
+        color: #F2C205;
+        font-size: medium;
+        font-weight: bold;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width:930px) {
+    .pageAbput{
+        position: relative;
+        left: 0px;
+        width: 100%;
+    }
+    .carousel,.carousel-inner,.carousel-item,.photo{
+        width: 100%;
+        height: 300px;
+    }
+    .personalInformation{
+        display: grid;
+        grid-template-columns: 500px;
+        place-content: center;
+        color: #F2C205;
+        font-size: larger;
+        font-weight: bold;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .pageAbput{
+        position: relative;
+        left: 0px;
+        width: 100%;
+    }
+    .carousel,.carousel-inner,.carousel-item,.photo{
+        width: 100%;
+        height: 300px;
+    }
+    .personalInformation{
+        display: grid;
+        grid-template-columns: 500px;
+        place-content: center;
+        color: #F2C205;
+        font-size: larger;
+        font-weight: bold;
+        margin-top: 10%;
+    }
+ 
+}

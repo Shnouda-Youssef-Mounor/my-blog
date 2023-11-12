@@ -1,0 +1,916 @@
+@media only screen and (max-width:300px) {
+
+ 
+.home{
+
+    position: relative;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: auto; 
+    place-content: center;
+}
+
+.myphoto{
+    width: 180px;
+    border-radius: 150px;
+}
+.name,.dev{
+    margin-top: 10px;
+    font-family: cursive;
+    font-weight: 900;
+    color: #F2C205;
+    font-size: 17px;
+    margin-left: 22px;
+    text-align: left;
+    padding-right: 10px;
+     width: 180px;
+    
+}
+.name::after{
+    content: '';
+    animation: write 10s infinite;
+    border-right: 1px solid #F2C205;
+   
+}
+@keyframes write {
+    0%{
+        content: 'S';
+    }
+    5%{
+        content: 'Sh';
+    }
+    10%{
+        content: 'Shno';
+    }
+    15%{
+        content: 'Shnoud';
+    }
+    20%{
+        content: 'Shnouda';
+    }
+
+    25%{
+        content: 'Shnouda Y';
+    }
+    30%{
+        content: 'Shnouda You';
+    }
+    35%{
+        content: 'Shnouda Youss';
+    }
+    40%{
+        content: 'Shnouda Youssef';
+    }
+    45%{
+        content: 'Shnouda Y';
+    }
+    50%{
+        content: 'Shn';
+    }
+    55%{
+        content: '';
+    }
+    60%{
+        content: 'Fro';
+    }
+    65%{
+        content: 'Front';
+    }
+
+    70%{
+        content: 'Fronten';
+    }
+    75%{
+        content: 'Frontend Deve';
+    }
+    80%{
+        content: 'Frontend Developer';
+    }
+    85%{
+        content: 'Frontend Developer';
+    }
+    90%{
+        content: 'Frontend Developer';
+    }
+    95%{
+        content: 'Frontend ';
+    }
+    100%{
+        content: '';
+    }
+}
+ .sec2{
+    display: block;
+ }
+
+
+.container{
+    position: relative;
+    display: flex;
+    border-radius: 150px;
+    width: 180px;
+    overflow: hidden;
+    animation: decblur 1s normal ;
+
+}
+
+@keyframes decblur {
+    0%{
+        filter: blur(10px);
+    }
+    100%{
+        filter: blur(0);
+    }
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+ .img{
+    height: 180px;
+    width: 180px;
+    pointer-events: none;
+    
+
+}
+
+
+}
+
+@media only screen and (min-width:300px) {
+    
+.home{
+
+    position: relative;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto; 
+    place-content: center;
+}
+
+.myphoto{
+    width: 180px;
+    border-radius: 150px;
+}
+.name,.dev{
+    margin-top: 10px;
+    font-family: cursive;
+    font-weight: 900;
+    color: #F2C205;
+    font-size: 18px;
+    margin-left: 22px;
+    text-align: left;
+    padding-right: 10px;
+     width: 200px;
+    
+}
+.name::after{
+    content: '';
+    animation: write 10s infinite;
+    border-right: 1px solid #F2C205;
+   
+}
+@keyframes write {
+    0%{
+        content: 'S';
+    }
+    5%{
+        content: 'Sh';
+    }
+    10%{
+        content: 'Shno';
+    }
+    15%{
+        content: 'Shnoud';
+    }
+    20%{
+        content: 'Shnouda';
+    }
+
+    25%{
+        content: 'Shnouda Y';
+    }
+    30%{
+        content: 'Shnouda You';
+    }
+    35%{
+        content: 'Shnouda Youss';
+    }
+    40%{
+        content: 'Shnouda Youssef';
+    }
+    45%{
+        content: 'Shnouda Y';
+    }
+    50%{
+        content: 'Shn';
+    }
+    55%{
+        content: '';
+    }
+    60%{
+        content: 'Fro';
+    }
+    65%{
+        content: 'Front';
+    }
+
+    70%{
+        content: 'Fronten';
+    }
+    75%{
+        content: 'Frontend Deve';
+    }
+    80%{
+        content: 'Frontend Developer';
+    }
+    85%{
+        content: 'Frontend Developer';
+    }
+    90%{
+        content: 'Frontend Developer';
+    }
+    95%{
+        content: 'Frontend ';
+    }
+    100%{
+        content: '';
+    }
+}
+
+
+
+.container{
+    position: relative;
+    display: flex;
+    border-radius: 150px;
+    width: 180px;
+    overflow: hidden;
+    animation: decblur 1s normal ;
+
+}
+
+@keyframes decblur {
+    0%{
+        filter: blur(10px);
+    }
+    100%{
+        filter: blur(0);
+    }
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+ .img{
+    height: 180px;
+    width: 180px;
+    pointer-events: none;
+    
+
+}
+.socialMediaSection{
+    position: relative;
+    left: 55px;
+}
+
+}
+
+@media only screen and (min-width:400px) {
+    .home{
+
+        position: relative;
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: auto; 
+        place-content: center;
+    }
+    
+    .myphoto{
+        width:280px;
+        border-radius: 150px;
+    }
+    .name,.dev{
+        margin-top: 10px;
+        font-family: cursive;
+        font-weight: 900;
+        color: #F2C205;
+        font-size: 25px;
+        margin-left: 22px;
+        text-align: left;
+        padding-right: 10px;
+         width:280px;
+        
+    }
+    .name::after{
+        content: '';
+        animation: write 10s infinite;
+        border-right: 1px solid #F2C205;
+       
+    }
+    @keyframes write {
+        0%{
+            content: 'S';
+        }
+        5%{
+            content: 'Sh';
+        }
+        10%{
+            content: 'Shno';
+        }
+        15%{
+            content: 'Shnoud';
+        }
+        20%{
+            content: 'Shnouda';
+        }
+    
+        25%{
+            content: 'Shnouda Y';
+        }
+        30%{
+            content: 'Shnouda You';
+        }
+        35%{
+            content: 'Shnouda Youss';
+        }
+        40%{
+            content: 'Shnouda Youssef';
+        }
+        45%{
+            content: 'Shnouda Y';
+        }
+        50%{
+            content: 'Shn';
+        }
+        55%{
+            content: '';
+        }
+        60%{
+            content: 'Fro';
+        }
+        65%{
+            content: 'Front';
+        }
+    
+        70%{
+            content: 'Fronten';
+        }
+        75%{
+            content: 'Frontend Deve';
+        }
+        80%{
+            content: 'Frontend Developer';
+        }
+        85%{
+            content: 'Frontend Developer';
+        }
+        90%{
+            content: 'Frontend Developer';
+        }
+        95%{
+            content: 'Frontend ';
+        }
+        100%{
+            content: '';
+        }
+    }
+    
+    
+    
+    .container{
+        position: relative;
+        display: flex;
+        border-radius: 150px;
+        width:250px;
+        overflow: hidden;
+        animation: decblur 1s normal ;
+    
+    }
+    
+    @keyframes decblur {
+        0%{
+            filter: blur(10px);
+        }
+        100%{
+            filter: blur(0);
+        }
+    }
+    .inner{
+        display: flex;
+        flex-direction: row;
+        cursor: pointer;
+    }
+    
+     .img{
+        height:280px;
+        width:280px;
+        pointer-events: none;
+        
+    
+    }
+    .socialMediaSection{
+        position: relative;
+        left: 80px;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .home{
+
+        position: relative;
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: auto; 
+        place-content: center;
+    }
+    
+    .myphoto{
+        width: 300px;
+        border-radius: 150px;
+    }
+    .name,.dev{
+        margin-top: 10px;
+        font-family: cursive;
+        font-weight: 900;
+        color: #F2C205;
+        font-size:30px;
+        margin-left: 22px;
+        text-align: left;
+        padding-right: 10px;
+         width: 300px;
+        
+    }
+    .name::after{
+        content: '';
+        animation: write 10s infinite;
+        border-right: 1px solid #F2C205;
+       
+    }
+    @keyframes write {
+        0%{
+            content: 'S';
+        }
+        5%{
+            content: 'Sh';
+        }
+        10%{
+            content: 'Shno';
+        }
+        15%{
+            content: 'Shnoud';
+        }
+        20%{
+            content: 'Shnouda';
+        }
+    
+        25%{
+            content: 'Shnouda Y';
+        }
+        30%{
+            content: 'Shnouda You';
+        }
+        35%{
+            content: 'Shnouda Youss';
+        }
+        40%{
+            content: 'Shnouda Youssef';
+        }
+        45%{
+            content: 'Shnouda Y';
+        }
+        50%{
+            content: 'Shn';
+        }
+        55%{
+            content: '';
+        }
+        60%{
+            content: 'Fro';
+        }
+        65%{
+            content: 'Front';
+        }
+    
+        70%{
+            content: 'Fronten';
+        }
+        75%{
+            content: 'Frontend Deve';
+        }
+        80%{
+            content: 'Frontend Developer';
+        }
+        85%{
+            content: 'Frontend Developer';
+        }
+        90%{
+            content: 'Frontend Developer';
+        }
+        95%{
+            content: 'Frontend ';
+        }
+        100%{
+            content: '';
+        }
+    }
+    
+    
+    
+    .container{
+        position: relative;
+        display: flex;
+        border-radius: 150px;
+        width: 300px;
+        overflow: hidden;
+        animation: decblur 1s normal ;
+    
+    }
+    
+    @keyframes decblur {
+        0%{
+            filter: blur(10px);
+        }
+        100%{
+            filter: blur(0);
+        }
+    }
+    .inner{
+        display: flex;
+        flex-direction: row;
+        cursor: pointer;
+    }
+    
+     .img{
+        height: 300px;
+        width: 300px;
+        pointer-events: none;
+        
+    
+    }
+    .socialMediaSection{
+        position: relative;
+        left: 80px;
+    }
+}
+
+@media only screen and (min-width:930px) {
+    .home{
+
+        position: relative;
+        margin-top: 30px;
+        display: grid;
+    grid-template-columns: 300px 330px;
+    place-content: center;
+    height:500px;
+    }
+    .bgimg{
+        position: relative;
+        background-color: #F2C205;
+        border-radius: 150px;
+        width: 300px;
+        height: 300px;
+        filter: blur(50px);
+        animation: rotate 3s infinite ;
+        
+    }
+    @keyframes rotate {
+        0%{
+            transform: rotate(0deg);
+            filter: blur(52px);
+        }
+        100%{
+            filter: blur(50px);
+    
+            transform: rotate(360deg);
+        }
+    }
+    .myphoto{
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+    }
+    .name,.dev{
+        position: relative;
+        top: 100px;
+        font-family: cursive;
+        font-weight: 900;
+        color: #F2C205;
+        font-size: 30px;
+        margin-left: 25px;
+        text-align: left;
+        padding-right: 10px;
+        width: auto;
+        animation: decblur 1s normal ;
+    
+    }
+    .name::after{
+        content: '';
+        animation: write 10s infinite;
+        border-right: 1px solid #F2C205;
+       
+    }
+    @keyframes write {
+        0%{
+            content: 'S';
+        }
+        5%{
+            content: 'Sh';
+        }
+        10%{
+            content: 'Shno';
+        }
+        15%{
+            content: 'Shnoud';
+        }
+        20%{
+            content: 'Shnouda';
+        }
+    
+        25%{
+            content: 'Shnouda Y';
+        }
+        30%{
+            content: 'Shnouda You';
+        }
+        35%{
+            content: 'Shnouda Youss';
+        }
+        40%{
+            content: 'Shnouda Youssef';
+        }
+        45%{
+            content: 'Shnouda Y';
+        }
+        50%{
+            content: 'Shn';
+        }
+        55%{
+            content: '';
+        }
+        60%{
+            content: 'Fro';
+        }
+        65%{
+            content: 'Front';
+        }
+    
+        70%{
+            content: 'Fronten';
+        }
+        75%{
+            content: 'Frontend Deve';
+        }
+        80%{
+            content: 'Frontend Developer';
+        }
+        85%{
+            content: 'Frontend Developer';
+        }
+        90%{
+            content: 'Frontend Developer';
+        }
+        95%{
+            content: 'Frontend ';
+        }
+        100%{
+            content: '';
+        }
+    }
+    
+    
+    .container{
+        position: relative;
+        display: flex;
+        border-radius: 150px;
+    scroll-behavior: smooth;
+        width: 300px;
+        overflow: hidden;
+        animation: decblur 1s normal ;
+    
+    }
+    
+    @keyframes decblur {
+        0%{
+            filter: blur(10px);
+        }
+        100%{
+            filter: blur(0);
+        }
+    }
+    .inner{
+        display: flex;
+        flex-direction: row;
+        cursor: pointer;
+        scroll-behavior: smooth;
+    }
+    
+     .img{
+        height: 300px;
+        width: 320px;
+        pointer-events: none;
+        
+    
+    }
+    .socialMediaSection{
+        position: relative;
+        left: 300px;
+    }
+}
+
+@media only screen and (min-width:1060px) {
+    
+.home {
+
+        display: grid;
+        grid-template-columns: 300px 330px;
+        place-content: center;
+        height: 500px;
+    }
+
+    .bgimg {
+        position: relative;
+        background-color: #F2C205;
+        border-radius: 150px;
+        width: 300px;
+        height: 300px;
+        filter: blur(50px);
+        animation: rotate 3s infinite;
+
+    }
+
+    @keyframes rotate {
+        0% {
+            transform: rotate(0deg);
+            filter: blur(52px);
+        }
+
+        100% {
+            filter: blur(50px);
+
+            transform: rotate(360deg);
+        }
+    }
+
+    .myphoto {
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+    }
+
+    .name,
+    .dev {
+        position: relative;
+        top: 100px;
+        font-family: cursive;
+        font-weight: 900;
+        color: #F2C205;
+        font-size: 30px;
+        margin-left: 25px;
+        text-align: left;
+        padding-right: 10px;
+        width: auto;
+        animation: decblur 1s normal;
+
+    }
+
+    .name::after {
+        content: '';
+        animation: write 10s infinite;
+        border-right: 1px solid #F2C205;
+
+    }
+
+    @keyframes write {
+        0% {
+            content: 'S';
+        }
+
+        5% {
+            content: 'Sh';
+        }
+
+        10% {
+            content: 'Shno';
+        }
+
+        15% {
+            content: 'Shnoud';
+        }
+
+        20% {
+            content: 'Shnouda';
+        }
+
+        25% {
+            content: 'Shnouda Y';
+        }
+
+        30% {
+            content: 'Shnouda You';
+        }
+
+        35% {
+            content: 'Shnouda Youss';
+        }
+
+        40% {
+            content: 'Shnouda Youssef';
+        }
+
+        45% {
+            content: 'Shnouda Y';
+        }
+
+        50% {
+            content: 'Shn';
+        }
+
+        55% {
+            content: '';
+        }
+
+        60% {
+            content: 'Fro';
+        }
+
+        65% {
+            content: 'Front';
+        }
+
+        70% {
+            content: 'Fronten';
+        }
+
+        75% {
+            content: 'Frontend Deve';
+        }
+
+        80% {
+            content: 'Frontend Developer';
+        }
+
+        85% {
+            content: 'Frontend Developer';
+        }
+
+        90% {
+            content: 'Frontend Developer';
+        }
+
+        95% {
+            content: 'Frontend ';
+        }
+
+        100% {
+            content: '';
+        }
+    }
+
+
+    .container {
+        position: relative;
+        display: flex;
+        border-radius: 150px;
+        scroll-behavior: smooth;
+        width: 280px;
+        overflow: hidden;
+        animation: decblur 1s normal;
+
+    }
+
+    @keyframes decblur {
+        0% {
+            filter: blur(10px);
+        }
+
+        100% {
+            filter: blur(0);
+        }
+    }
+
+    .inner {
+        display: flex;
+        flex-direction: row;
+        cursor: pointer;
+        scroll-behavior: smooth;
+    }
+
+    .img {
+        height: 300px;
+        width: 300px;
+        pointer-events: none;
+
+
+    }
+
+    .socialMediaSection {
+        position: relative;
+        left: 300px;
+    }
+}
+

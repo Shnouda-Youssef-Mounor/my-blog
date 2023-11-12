@@ -1,0 +1,300 @@
+
+@media only screen and (max-width:300px) {
+    .portfolio{
+          display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8%;
+    }
+    .containerIMG{
+        height: 214px;
+        width: 210px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .project{
+        display: flex;
+        width: 210px;
+        height: 400px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-wrap: nowrap;
+    }
+    .project font{
+        color: #F2C205;
+        font-size: x-large;
+        font-weight: bold;
+    }
+    .imgProject{
+        height: 214px;
+        width: 210px;
+        border-radius: 5px;
+    }
+    .imgProject:hover{
+        transition-duration: 1s;
+        transform: scale(1.1,1.1);
+    }
+    .project label{
+        background-color: #F2C205;
+        font-weight: 600;
+        height: auto;
+        width: 210px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 3px;
+        margin-top: 5px;
+    }
+    .project p{
+        margin-top: 10px;
+        color: #F2C205;
+        font-weight: bold;
+    }
+    .project div{
+        width: 210px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media only screen and (min-width:300px) {
+    .portfolio{
+        display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8%;
+  }
+  .containerIMG{
+      height: 214px;
+      width: 300px;
+      border-radius: 5px;
+      overflow: hidden;
+  }
+  .project{
+      display: flex;
+      width: 300px;
+      height: 400px;
+      margin-bottom: 20px;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: nowrap;
+  }
+  .project font{
+      color: #F2C205;
+      font-size: x-large;
+      font-weight: bold;
+  }
+  .imgProject{
+      height: 214px;
+      width: 300px;
+      border-radius: 5px;
+  }
+  .imgProject:hover{
+      transition-duration: 1s;
+      transform: scale(1.1,1.1);
+  }
+  .project label{
+      background-color: #F2C205;
+      font-weight: 600;
+      height: auto;
+      width: 300px;
+      text-align: center;
+      border-radius: 5px;
+      padding: 3px;
+      margin-top: 5px;
+  }
+  .project p{
+      margin-top: 10px;
+      color: #F2C205;
+      font-weight: bold;
+  }
+  .project div{
+      width: 300px;
+      display: flex;
+      justify-content: space-between;
+  }
+}
+@media only screen and (min-width:600px) {
+    .portfolio{
+        display: grid;
+        grid-template-columns: auto  auto;
+        place-content: center;
+    }
+  .containerIMG{
+      height: 214px;
+      width: 300px;
+      border-radius: 5px;
+      overflow: hidden;
+  }
+  .project{
+      display: flex;
+      width: 300px;
+      height: 400px;
+      margin-bottom: 20px;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: nowrap;
+      margin: 10px;
+  }
+  .project font{
+      color: #F2C205;
+      font-size: x-large;
+      font-weight: bold;
+  }
+  .imgProject{
+      height: 214px;
+      width: 300px;
+      border-radius: 5px;
+  }
+  .imgProject:hover{
+      transition-duration: 1s;
+      transform: scale(1.1,1.1);
+  }
+  .project label{
+      background-color: #F2C205;
+      font-weight: 600;
+      height: auto;
+      width: 300px;
+      text-align: center;
+      border-radius: 5px;
+      padding: 3px;
+      margin-top: 5px;
+  }
+  .project p{
+      margin-top: 10px;
+      color: #F2C205;
+      font-weight: bold;
+  }
+  .project div{
+      width: 300px;
+      display: flex;
+      justify-content: space-between;
+  }
+}
+@media only screen and (min-width:920px) {
+    .portfolio{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        place-content: center;
+    }
+    .containerIMG{
+        height: 214px;
+        width: 290px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .project{
+        display: flex;
+        width: 290px;
+        height: 400px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-wrap: nowrap;
+    }
+    .project font{
+        color: #F2C205;
+        font-size: x-large;
+        font-weight: bold;
+    }
+    .imgProject{
+        height: 214px;
+        width: 290px;
+        border-radius: 5px;
+    }
+    .imgProject:hover{
+        transition-duration: 1s;
+        transform: scale(1.1,1.1);
+    }
+    .project label{
+        background-color: #F2C205;
+        font-weight: 600;
+        height: auto;
+        width: 290px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 3px;
+        margin-top: 5px;
+    }
+    .project p{
+        margin-top: 10px;
+        color: #F2C205;
+        font-weight: bold;
+    }
+    .project div{
+        width: 290px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media only screen and (min-width:1200px) {
+    .pagePortfolio{
+        position: relative;
+        left: 0px;
+        width: 100%;
+    }
+    .titleProjects{
+        margin-left: 5%;
+    }
+    .portfolio{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        place-content: center;
+    }
+    .containerIMG{
+        height: 214px;
+        width: 300px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .project{
+        display: flex;
+        width: 300px;
+        height: 400px;
+        margin: 10px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-wrap: nowrap;
+    }
+    .project font{
+        color: #F2C205;
+        font-size: x-large;
+        font-weight: bold;
+    }
+    .imgProject{
+        height: 214px;
+        width: 300px;
+        border-radius: 5px;
+    }
+    .imgProject:hover{
+        transition-duration: 1s;
+        transform: scale(1.1,1.1);
+    }
+    .project label{
+        background-color: #F2C205;
+        font-weight: 600;
+        height: auto;
+        width: 300px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 3px;
+        margin-top: 5px;
+    }
+    .project p{
+        margin-top: 10px;
+        color: #F2C205;
+        font-weight: bold;
+    }
+    .project div{
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

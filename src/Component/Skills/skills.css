@@ -1,0 +1,523 @@
+@media only screen and (max-width:300px) {
+    .titl{
+        position: relative;
+        left: 50px;
+        color: #F2C205;
+        font-weight: bold;
+        font-size: small;
+        font-family: cursive;
+        
+    }
+    .pageSkills {
+        width: 100%;
+    }
+    .mainNav {
+        position: relative;
+        right: 0px;
+    }
+    .skills {
+        display: grid;
+        grid-template-columns: 50px 50px 50px;
+        justify-content: center;
+        align-items: center;
+        justify-items: stretch;
+    }
+    .skillsPhoto {
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+        animation: moveSkills 3s normal;
+    }
+    .skillsPhoto:hover {
+        animation: moveSkillsHover 3s infinite;
+    }
+    @keyframes moveSkills {
+        0% {
+            transform: rotate(30deg);
+        }
+        50% {
+            transform: rotate(-30deg);
+        }
+        60% {
+            transform: rotate(-30deg);
+        }
+        80% {
+            transform: rotate(30deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+    @keyframes moveSkillsHover {
+        0% {
+            transform: rotate(30deg);
+        }
+        50% {
+            transform: rotate(-30deg);
+        }
+        60% {
+            transform: rotate(-30deg);
+        }
+        100% {
+            transform: rotate(30deg);
+        }
+    }
+    .borderWhite {
+        border: 1px solid white;
+    }
+    .radiusBorder {
+        border-radius: 20px;
+    }
+    .padding {
+        padding: 1px;
+    }
+    .pdbt {
+        padding-bottom: 2.5px;
+    }
+    .bgWhite {
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width:300px) {
+    .titl{
+        color: #F2C205;
+        font-weight: bold;
+        font-size: large;
+        font-family: cursive;
+    }
+    .pageSkills {
+        width: 250px;
+        position: relative;
+        left:50px;
+    }
+    .mainNav {
+        position: relative;
+        right: 0px;
+    }
+    .skills {
+        display: grid;
+        grid-template-columns: 90px 90px 90px;
+        justify-content: center;
+        align-items: center;
+        justify-items: stretch;
+    }
+    .skillsPhoto {
+        width: 60px;
+        height: 60px;
+        margin: 10px;
+        animation: moveSkills 3s normal;
+    }
+    .skillsPhoto:hover {
+        animation: moveSkillsHover 3s infinite;
+    }
+    @keyframes moveSkills {
+        0% {
+            transform: rotate(30deg);
+        }
+        50% {
+            transform: rotate(-30deg);
+        }
+        60% {
+            transform: rotate(-30deg);
+        }
+        80% {
+            transform: rotate(30deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+    @keyframes moveSkillsHover {
+        0% {
+            transform: rotate(30deg);
+        }
+        50% {
+            transform: rotate(-30deg);
+        }
+        60% {
+            transform: rotate(-30deg);
+        }
+        100% {
+            transform: rotate(30deg);
+        }
+    }
+    .borderWhite {
+        border: 1px solid white;
+    }
+    .radiusBorder {
+        border-radius: 20px;
+    }
+    .padding {
+        padding: 1px;
+    }
+    .pdbt {
+        padding-bottom: 2.5px;
+    }
+    .bgWhite {
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width:400px) {
+    .titl{
+        color: #F2C205;
+        font-weight: bold;
+        font-size: large;
+        font-family: cursive;
+    }
+    .pageSkills {
+        width: 90%;
+        position: relative;
+        left:30px;
+    }
+    .mainNav {
+        position: relative;
+        right: 0px;
+    }
+    .skills {
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        justify-content: center;
+        align-items: center;
+        justify-items: stretch;
+    }
+    .skillsPhoto {
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+        animation: moveSkills 3s normal;
+    }
+    .skillsPhoto:hover {
+        animation: moveSkillsHover 3s infinite;
+    }
+    @keyframes moveSkills {
+        0% {
+            transform: rotate(30deg);
+        }
+        50% {
+            transform: rotate(-30deg);
+        }
+        60% {
+            transform: rotate(-30deg);
+        }
+        80% {
+            transform: rotate(30deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+    @keyframes moveSkillsHover {
+        0% {
+            transform: rotate(30deg);
+        }
+        50% {
+            transform: rotate(-30deg);
+        }
+        60% {
+            transform: rotate(-30deg);
+        }
+        100% {
+            transform: rotate(30deg);
+        }
+    }
+    .borderWhite {
+        border: 1px solid white;
+    }
+    .radiusBorder {
+        border-radius: 20px;
+    }
+    .padding {
+        padding: 1px;
+    }
+    .pdbt {
+        padding-bottom: 2.5px;
+    }
+    .bgWhite {
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .titl{
+        color: #F2C205;
+        font-weight: bold;
+        font-size: large;
+        font-family: cursive;
+    }
+    .pageSkills {
+        width: 90%;
+        position: relative;
+        top: 0px;
+        left: 25px;
+    }
+    .mainNav {
+        position: relative;
+        right: 0px;
+    }
+    .skills {
+        display: grid;
+        grid-template-columns: 100px 100px 100px 100px 100px;
+        justify-content: center;
+        align-items: center;
+        justify-items: stretch;
+    }
+    .skillsPhoto {
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+        animation: moveSkills 3s normal;
+    }
+    .skillsPhoto:hover {
+        animation: moveSkillsHover 3s infinite;
+    }
+    @keyframes moveSkills {
+        0% {
+            transform: rotate(30deg);
+        }
+        50% {
+            transform: rotate(-30deg);
+        }
+        60% {
+            transform: rotate(-30deg);
+        }
+        80% {
+            transform: rotate(30deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+    @keyframes moveSkillsHover {
+        0% {
+            transform: rotate(30deg);
+        }
+        50% {
+            transform: rotate(-30deg);
+        }
+        60% {
+            transform: rotate(-30deg);
+        }
+        100% {
+            transform: rotate(30deg);
+        }
+    }
+    .borderWhite {
+        border: 1px solid white;
+    }
+    .radiusBorder {
+        border-radius: 20px;
+    }
+    .padding {
+        padding: 1px;
+    }
+    .pdbt {
+        padding-bottom: 2.5px;
+    }
+    .bgWhite {
+        background-color: white;
+    }
+}
+@media only screen and (min-width:930px) {
+    .titl {
+        color: #F2C205;
+        font-weight: bold;
+        font-size: large;
+        font-family: cursive;
+    }
+
+    .pageSkills {
+        width: 100%;
+        position: relative;
+        top: 0px;
+        left: 150px;
+        
+    }
+
+    .mainNav {
+        position: relative;
+        right: 0px;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto;
+        justify-content: center;
+        align-items: center;
+        justify-items: stretch;
+        width: 100%;
+    }
+
+    .skillsPhoto {
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+        animation: moveSkills 3s normal;
+    }
+
+    .skillsPhoto:hover {
+        animation: moveSkillsHover 3s infinite;
+    }
+
+    @keyframes moveSkills {
+        0% {
+            transform: rotate(30deg);
+        }
+
+        50% {
+            transform: rotate(-30deg);
+        }
+
+        60% {
+            transform: rotate(-30deg);
+        }
+
+        80% {
+            transform: rotate(30deg);
+        }
+
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+
+    @keyframes moveSkillsHover {
+        0% {
+            transform: rotate(30deg);
+        }
+
+        50% {
+            transform: rotate(-30deg);
+        }
+
+        60% {
+            transform: rotate(-30deg);
+        }
+
+        100% {
+            transform: rotate(30deg);
+        }
+    }
+
+    .borderWhite {
+        border: 1px solid white;
+    }
+
+    .radiusBorder {
+        border-radius: 20px;
+    }
+
+    .padding {
+        padding: 1px;
+    }
+
+    .pdbt {
+        padding-bottom: 2.5px;
+    }
+
+    .bgWhite {
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .titl {
+        color: #F2C205;
+        font-weight: bold;
+        font-size: large;
+        font-family: cursive;
+    }
+
+    .pageSkills {
+        width: 100%;
+        position: relative;
+        top: 0px;
+        left: 0px;        
+
+    }
+
+    .mainNav {
+        position: relative;
+        right: 0px;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: 130px 130px 130px 130px 130px 130px 130px;
+        justify-content: center;
+        align-items: center;
+        justify-items: stretch;
+    }
+
+    .skillsPhoto {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        animation: moveSkills 3s normal;
+    }
+
+    .skillsPhoto:hover {
+        animation: moveSkillsHover 3s infinite;
+    }
+
+    @keyframes moveSkills {
+        0% {
+            transform: rotate(30deg);
+        }
+
+        50% {
+            transform: rotate(-30deg);
+        }
+
+        60% {
+            transform: rotate(-30deg);
+        }
+
+        80% {
+            transform: rotate(30deg);
+        }
+
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+
+    @keyframes moveSkillsHover {
+        0% {
+            transform: rotate(30deg);
+        }
+
+        50% {
+            transform: rotate(-30deg);
+        }
+
+        60% {
+            transform: rotate(-30deg);
+        }
+
+        100% {
+            transform: rotate(30deg);
+        }
+    }
+
+    .borderWhite {
+        border: 1px solid white;
+    }
+
+    .radiusBorder {
+        border-radius: 20px;
+    }
+
+    .padding {
+        padding: 1px;
+    }
+
+    .pdbt {
+        padding-bottom: 2.5px;
+    }
+
+    .bgWhite {
+        background-color: white;
+    }
+}

@@ -1,0 +1,72 @@
+@media only screen and (max-width:600px) {    
+.resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resume img{
+    width: 60%;
+    border-radius:1000px;
+    margin-bottom: 20px;
+}
+.btnResume{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.resume .btn-danger,.btn-danger:focus,.btn-Preview:hover,.btn-Preview:focus{
+    outline: 1px solid #F2C205;
+    border: 0px;
+    background-color: transparent;
+    color: #F2C205;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 95px;
+    height: 35px;
+}
+.resume .btn-danger:hover,.btn-danger:focus,.btn-Preview{
+    border: 0px;
+    font-weight: 500;
+    transition-duration: 1s;
+    background-color: #F2C205;
+    color: #020017;
+    outline: 1px solid #F2C205;
+    width: 95px;
+    height: 35px;
+}
+    
+}
+@media only screen and (min-width:600px) {
+    
+.resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resume img{
+    width: 30%;
+    border-radius:1000px;
+    margin-bottom: 20px;
+}
+.btnResume{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.resume .btn-danger,.btn-danger:focus,.btn-Preview:hover,.btn-Preview:focus{
+    outline: 1px solid #F2C205;
+    border: 0px;
+    background-color: transparent;
+    color: #F2C205;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.resume .btn-danger:hover,.btn-danger:focus,.btn-Preview{
+    border: 0px;
+    font-weight: 500;
+    transition-duration: 1s;
+    background-color: #F2C205;
+    color: #020017;
+    outline: 1px solid #F2C205;
+}
+}

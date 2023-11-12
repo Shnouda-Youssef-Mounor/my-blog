@@ -1,0 +1,11 @@
+.slid{
+    z-index: 5;
+    position: fixed;
+    left: 1px;
+}
+#Skills,#About,#Resume{
+    padding-left: 5%;
+}
+.section{
+    margin-bottom: 30%;
+}
