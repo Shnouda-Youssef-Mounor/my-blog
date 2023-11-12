@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.370d4734.css",
+    "main.js": "/static/js/main.60f5a46c.js",
+    "static/media/nextjs.jpg": "/static/media/nextjs.c455a640c337902d41e1.jpg",
+    "static/media/Foodera.jpg": "/static/media/Foodera.91a1bdd886fc1dc80a11.jpg",
+    "static/media/3.jpg": "/static/media/3.fcc679cbf9a4e09139c4.jpg",
+    "static/media/1.jpg": "/static/media/1.c231a642fe614956cbef.jpg",
+    "static/media/shoppingCart.jpg": "/static/media/shoppingCart.3636cb040bdc84f46423.jpg",
+    "static/media/R2.png": "/static/media/R2.623e3af41c42ac3adae5.png",
+    "static/media/ShnoudaYoussefMounir.pdf": "/static/media/ShnoudaYoussefMounir.06dec67a1edfab0d794c.pdf",
+    "static/media/java.jpg": "/static/media/java.54c6b3065b797261f162.jpg",
+    "static/media/ES6.png": "/static/media/ES6.559818160a00cef7381c.png",
+    "static/media/calories.jpg": "/static/media/calories.d659c85a33b5a5406abd.jpg",
+    "static/media/mongodb.png": "/static/media/mongodb.1809ea342e10c4e9aba4.png",
+    "static/media/2.jpg": "/static/media/2.604eab08d64b2fb48e10.jpg",
+    "static/media/productList.jpg": "/static/media/productList.daae268f0948f352879e.jpg",
+    "static/media/REACT.png": "/static/media/REACT.d1f1997716f6f4c99596.png",
+    "static/media/quoteGenerator.jpg": "/static/media/quoteGenerator.c93a9f79c53483d848c0.jpg",
+    "static/media/oracle.jpeg": "/static/media/oracle.5101bc080ff633fa4984.jpeg",
+    "static/media/ticTacToe.jpg": "/static/media/ticTacToe.23c75d84fef4b2d6eeda.jpg",
+    "static/media/python.png": "/static/media/python.4df5390c2f735e5a91d8.png",
+    "static/media/postgresql.webp": "/static/media/postgresql.fc7e8869466c991fdcfe.webp",
+    "static/media/R.png": "/static/media/R.37aff07db8ca6d47d93a.png",
+    "static/media/SQL.png": "/static/media/SQL.9b0838c112a6bc92160b.png",
+    "static/media/css.png": "/static/media/css.de7ef0a91f8be6aab47d.png",
+    "static/media/html.png": "/static/media/html.0ee7e54fa4819f9442a9.png",
+    "static/media/Js.png": "/static/media/Js.8eb8bc3e06bab57f003d.png",
+    "static/media/net.jpg": "/static/media/net.1b25dd51fef4dff6f07a.jpg",
+    "static/media/cpp.jpeg": "/static/media/cpp.f11b77ccf6f53cd98b38.jpeg",
+    "static/media/c.png": "/static/media/c.5d7aea8f27887da8445d.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.957c58aa9be90d1ad8fe.png",
+    "index.html": "/index.html",
+    "main.370d4734.css.map": "/static/css/main.370d4734.css.map",
+    "main.60f5a46c.js.map": "/static/js/main.60f5a46c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.370d4734.css",
+    "static/js/main.60f5a46c.js"
+  ]
+}
